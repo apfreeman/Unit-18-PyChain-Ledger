@@ -55,8 +55,7 @@ class Record:
     sender: str
     receiver: str
     amount: float
-    creator_id: int
-    prev_hash: str = "0"
+
     
 
 
@@ -195,13 +194,14 @@ if st.button("Add Block"):
     # Update `new_block` so that `Block` consists of an attribute named `record`
     # which is set equal to a `Record` that contains the `sender`, `receiver`,
     # and `amount` values
-    new_block = Record(
+    new_block = Block(
+        record=Record(
         sender=sender_input,
         receiver=receiver_input,
-        amount=amount_input,
+        amount=amount_input)         
         creator_id=42,
         prev_hash=prev_block_hash
-    )
+        )
     pychain.add_block(new_block)
     st.balloons()
 
