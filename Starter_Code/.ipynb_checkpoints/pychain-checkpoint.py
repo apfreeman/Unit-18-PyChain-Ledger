@@ -55,6 +55,9 @@ class Record:
     sender: str
     receiver: str
     amount: float
+    creator_id: int
+    prev_hash: str = "0"
+    
 
 
 ################################################################################
@@ -74,7 +77,6 @@ class Block:
     # @TODO
     # Rename the `data` attribute to `record`, and set the data type to `Record`
     record: Record
-
     creator_id: int
     prev_hash: str = "0"
     timestamp: str = datetime.datetime.utcnow().strftime("%H:%M:%S")
@@ -197,10 +199,9 @@ if st.button("Add Block"):
         sender=sender_input,
         receiver=receiver_input,
         amount=amount_input,
-        creator_id: 42,
-        prev_hash: prev_block_hash
+        creator_id=42,
+        prev_hash=prev_block_hash
     )
-
     pychain.add_block(new_block)
     st.balloons()
 
