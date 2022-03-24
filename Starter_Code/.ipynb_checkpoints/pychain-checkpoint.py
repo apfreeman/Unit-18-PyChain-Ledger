@@ -198,7 +198,7 @@ if st.button("Add Block"):
         record=Record(
         sender=sender_input,
         receiver=receiver_input,
-        amount=amount_input)         
+        amount=amount_input),         
         creator_id=42,
         prev_hash=prev_block_hash
         )

@@ -2,9 +2,9 @@
 
 ![alt=""](Images/application-image.png)
 
-You’re a fintech engineer who’s working at one of the five largest banks in the world. You were recently promoted to act as the lead developer on their decentralized finance team. Your task is to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
+I am a fintech engineer working at one of the five largest banks in the world. I have recently been promoted to act as the lead developer in their decentralized finance team. I have been tasked to build a blockchain-based ledger system, complete with a user-friendly web interface. This ledger should allow partner banks to conduct financial transactions (that is, to transfer money between senders and receivers) and to verify the integrity of the data in the ledger.
 
-You’ll make the following updates to the provided Python file for this assignment, which already contains the basic `PyChain` ledger structure that you created throughout the module:
+I have made the following updates to the the basic `PyChain` ledger structure:
 
 1. Create a new data class named `Record`. This class will serve as the blueprint for the financial transaction records that the blocks of the ledger will store.
 
@@ -14,14 +14,7 @@ You’ll make the following updates to the provided Python file for this assignm
 
 4. Test the PyChain Ledger by Storing Records.
 
----
-## Files
 
-Download the following files to help you get started:
-
-[Module 18 Homework files](Starter_Code/pychain.py)
-
----
 
 ## Instructions
 
@@ -96,8 +89,3 @@ You’ll upload the Python file for this assignment to your GitHub repository.
 
 * Make sure to update the `README.md` file to include an explanation of the Steamlit application, a screenshot or video of your deployed Streamlit application, and any other information that’s needed to interact with your project.
 
-* Submit the link to your GitHub project to Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
